@@ -1,4 +1,4 @@
-.. image:: https://raw.githubusercontent.com/score-framework/py.doc/master/doc/score-banner.png
+.. image:: https://raw.githubusercontent.com/score-framework/py.doc/master/docs/score-banner.png
     :target: http://score-framework.org
 
 `The SCORE Framework`_ is a collection of harmonized python and javascript
@@ -6,6 +6,7 @@ libraries for the development of large scale web projects. Powered by strg.at_.
 
 .. _The SCORE Framework: http://score-framework.org
 .. _strg.at: http://strg.at
+
 
 score.menu
 ==========
@@ -126,6 +127,7 @@ The above menu could be written like the following::
             });
         });
     </script>
+
 
 License
 =======
