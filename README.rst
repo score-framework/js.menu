@@ -8,8 +8,9 @@ libraries for the development of large scale web projects. Powered by strg.at_.
 .. _strg.at: http://strg.at
 
 
+**********
 score.menu
-==========
+**********
 
 .. _js_menu:
 
@@ -17,7 +18,7 @@ A simple library controlling drop-down menu elements that will open when the
 mouse hovers on one of its items.
 
 Rationale
----------
+=========
 
 The key feature of this library is that it will handle mouseenter/-leave
 events correctly. For the sake of documentation, lets assume that we have a
@@ -69,7 +70,7 @@ was entered in the mean time. It also ensures that at most one entry is open
 at any time.
 
 Usage
------
+=====
 
 The constructor accepts a single DOM node that must be a list node, i.e.
 either an ``ul``- or an ``ol``-element. All list items (``li`` nodes) are
@@ -88,7 +89,7 @@ The triggered events always have the ``li`` node as argument:
   item is guaranteed to be opened previously with the other event.
 
 Example
--------
+=======
 
 The above menu could be written like the following::
 
