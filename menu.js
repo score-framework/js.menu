@@ -85,14 +85,15 @@ define('lib/score/menu', ['lib/score/oop'], function(oop) {
 
         close: function(self) {
             var active = self.activeItem();
-            if (active) {
-                return;
+            if (!active) {
+                return true;
             }
             if (!self.trigger('close', active)) {
-                return;
+                return false;
             }
             active.className = active.className.replace(/\bmenu-item-active\b/, '');
             self.hoverItem = null;
+            return true;
         },
 
         activeItem: function(self) {
